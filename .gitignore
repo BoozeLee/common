@@ -29,3 +29,6 @@ yarn-error.log*
 *.diff.png
 *.diff.svg
 .vercel
+
+.gemini/
+gha-creds-*.json
