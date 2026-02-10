@@ -20,15 +20,13 @@ export const ArduinoShield = ({ children, ...rest }: ArduinoShieldProps) => {
     <board
       {...boardProps}
       outline={[
-        { x: -34.29, y: 26.67 }, // top-left corner
-        { x: 32.29, y: 26.67 }, // top-right (sharp)
-        { x: 34.29, y: 24.67 }, // top-right (sharp)
-        { x: 34.29, y: 13.89 }, // start top slanted transition
-        { x: 36.83, y: 11.35 }, // outward notch top
-        { x: 36.83, y: -21.35 }, // outward notch bottom
-        { x: 34.29, y: -23.89 }, // end bottom slanted transition
-        { x: 34.29, y: -26.67 }, // bottom-right corner
-        { x: -34.29, y: -26.67 }, // bottom-left corner
+        { x: -34.29, y: -26.67 },
+        { x: 32.26, y: -26.67 },
+        { x: 34.29, y: -24.64 },
+        { x: 34.29, y: 17.27 },
+        { x: 31.75, y: 19.81 },
+        { x: 31.75, y: 26.67 },
+        { x: -34.29, y: 26.67 },
       ]}
     >
       <chip
